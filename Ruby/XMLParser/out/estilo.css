@@ -1,0 +1,56 @@
+body {
+	background-color: #939090;
+}
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+img {
+	height: 150px;
+	width: 200px;
+	border-radius: 15px;
+}
+section {
+	background-color: #DBEAF9; 
+	border-radius: 15px;
+	width: 75%;
+	padding: 2%;
+	margin-top: 5%;
+	margin-left: 10%;
+	clear: both;
+	height: 150%;
+}
+
+table {
+	border: 1px dashed;
+}
+
+td{
+	border: 1px dotted;
+	padding: 2px;
+}
+
+caption {
+	font-style: italic;
+}
+footer {
+	text-align: center;
+	border-top: 1px solid;
+}
+address{
+	text-align: center;
+}
+
+#propietario {
+	float: left;
+	width: 50%;
+	margin-left: 10%;
+}
+
+#coche {
+	margin-left: 60%;
+}

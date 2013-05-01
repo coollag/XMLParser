@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="ejercicio1.xsl" ?>
+<!-- !DOCTYPE parking SYSTEM "ejercicio1.dtd"-->
+<parking denominacion="Parking EII" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation='ejercicio1.xsd'>
+	<plaza planta="1" fila="1" columna="A">
+		<propietario nombre="Felipe" apellidos="Garcia Martinez"
+			fNacimiento="06-05-1980" dni="7894561L" ciudad="Gijon" telefono="654321987">
+			<coche marca="Renault" combustible="gasolina" matricula="5841BBB">
+				<modelo tipo="Laguna" anno="2010" />
+				<imagen src="./coches/laguna.jpg" />
+				<color rgb="blanco" />
+			</coche>
+		</propietario>
+		<tarifa cuota="2" />
+	</plaza>
+	<plaza planta="1" fila="1" columna="B">
+		<propietario nombre="Manuel" apellidos="Martinez Garcia"
+			fNacimiento="05-06-1984" dni="8749561K" ciudad="Oviedo" telefono="654789123">
+			<coche marca="Volkswagen" combustible="diesel" matricula="9821CCB">
+				<modelo tipo="Golf" anno="2006" />
+				<imagen src="./coches/golf.jpg" />
+				<color rgb="negro" />
+			</coche>
+		</propietario>
+		<tarifa cuota="1" />
+	</plaza>
+	<plaza planta="1" fila="1" columna="C">
+		<propietario nombre="Juan" apellidos="Perez Garcia"
+			fNacimiento="14-02-1963" dni="3258561N" ciudad="Mieres" telefono="693248751">
+			<coche marca="Seat" combustible="diesel" matricula="8521CCC">
+				<modelo tipo="León" anno="2000" />
+				<imagen src="./coches/leon.jpg" />
+				<color rgb="rojo" />
+			</coche>
+		</propietario>
+		<tarifa cuota="3" />
+	</plaza>
+	<plaza planta="2" fila="3" columna="D">
+		<propietario nombre="Pedro" apellidos="Fernandez Fernandez"
+			fNacimiento="01-01-1974" dni="89456123W" ciudad="Llanes" telefono="647253317">
+			<coche marca="Citroen" combustible="gasolina" matricula="9851HHH">
+				<modelo tipo="C4" anno="2004" />
+				<imagen src="./coches/c4.jpg" />
+				<color rgb="azul" />
+			</coche>
+		</propietario>
+		<tarifa cuota="1" />
+	</plaza>
+	<plaza planta="2" fila="3" columna="B">
+		<propietario nombre="Jose" apellidos="Menendez Lopez"
+			fNacimiento="22-11-1980" dni="65872349B" ciudad="Oviedo" telefono="6789456231">
+			<coche marca="Opel" combustible="diesel" matricula="8521GJE">
+				<modelo tipo="Astra" anno="2012" />
+				<imagen src="./coches/astra.jpg" />
+				<color rgb="gris" />
+			</coche>
+			<coche marca="BMW" combustible="gasolina" matricula="98521CCB">
+				<modelo tipo="Z3" anno="2010" />
+				<imagen src="./coches/z3.jpg" />
+				<color rgb="negro" />
+			</coche>
+		</propietario>
+		<tarifa cuota="3" />
+	</plaza>
+	<plaza planta="2" fila="4" columna="D">
+		<propietario nombre="Daniel" apellidos="Rodriguez Gonzalez"
+			fNacimiento="30-05-1970" dni="36521472M" ciudad="Aviles" telefono="983332564">
+			<coche marca="Opel" combustible="gasolina" matricula="0000JJJ">
+				<modelo tipo="Corsa" anno="2000" />
+				<imagen src="./coches/corsa.jpg" />
+				<color rgb="verde" />
+			</coche>
+		</propietario>
+		<tarifa cuota="2" />
+	</plaza>
+	<plaza planta="4" fila="7" columna="E">
+		<propietario nombre="Moises" apellidos="Vazquez Blanco"
+			fNacimiento="23-10-1987" dni="96325417P" ciudad="Gijon" telefono="985648822">
+			<coche marca="Mazda" combustible="gasolina" matricula="O-5648-BC">
+				<modelo tipo="RX-7" anno="2005" />
+				<imagen src="./coches/rx.jpg" />
+				<color rgb="rojo" />
+			</coche>
+		</propietario>
+		<tarifa cuota="2" />
+	</plaza>
+	<plaza planta="4" fila="2" columna="B">
+		<propietario nombre="Antonio" apellidos="Longedo Riesco"
+			fNacimiento="04-10-1980" dni="65478930K" ciudad="Cangas del Narcea"
+			telefono="695175034">
+			<coche marca="Peugeot" combustible="diesel" matricula="98521CCB">
+				<modelo tipo="307" anno="2004" />
+				<imagen src="./coches/307.jpg" />
+				<color rgb="gris" />
+			</coche>
+			<coche marca="Dacia" combustible="diesel" matricula="98521CCB">
+				<modelo tipo="Logan" anno="2010" />
+				<imagen src="./coches/logan.jpg" />
+				<color rgb="azul" />
+			</coche>
+		</propietario>
+		<tarifa cuota="1" />
+	</plaza>
+	<plaza planta="5" fila="5" columna="C">
+		<propietario nombre="Luis" apellidos="Villaverde Arias"
+			fNacimiento="28-09-1977" dni="91523746C" ciudad="Latores" telefono="698217462">
+			<coche marca="BMW" combustible="diesel" matricula="5527HJB">
+				<modelo tipo="X-6" anno="2012" />
+				<imagen src="./coches/x6.jpg" />
+				<color rgb="blanco" />
+			</coche>
+		</propietario>
+		<tarifa cuota="3" />
+	</plaza>
+	<plaza planta="6" fila="3" columna="E">
+		<propietario nombre="Francisco" apellidos="Marques Lago"
+			fNacimiento="15-12-19872" dni="84623197I" ciudad="Luanco" telefono="632854972">
+			<coche marca="Seat" combustible="gasolina" matricula="1035BNK">
+				<modelo tipo="Ibiza" anno="2006" />
+				<imagen src="./coches/ibiza.jpg" />
+				<color rgb="negro" />
+			</coche>
+		</propietario>
+		<tarifa cuota="1" />
+	</plaza>
+</parking>
